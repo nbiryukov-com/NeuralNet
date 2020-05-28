@@ -387,3 +387,7 @@ final <- data.frame('NN' = c(rep('SM', 2), rep('RNN', 2), rep('lstm', 2)),
                 'MSE' = mse,
                 'MAPE' = mape)
 final
+
+# Лучшая нейронная сеть
+# RNN, rmsprop, mse
+# loss = 0.0782
